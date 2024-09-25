@@ -1,0 +1,1 @@
+full blown breakdown of categories, tags, domains, and attributes you can search

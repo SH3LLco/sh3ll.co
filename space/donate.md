@@ -1,0 +1,1 @@
+details on how to support this project
