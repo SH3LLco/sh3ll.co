@@ -1,0 +1,1 @@
+[[search|How to search]]

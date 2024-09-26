@@ -168,7 +168,7 @@ img {
   height: auto; 
 }
 
-.no-frontmatter .sb-frontmatter {
+!.no-frontmatter .sb-frontmatter {
     display: none;
 }
 
