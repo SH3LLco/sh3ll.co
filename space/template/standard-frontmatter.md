@@ -2,30 +2,27 @@
 tags: template
 hooks.snippet.slashCommand: standard-frontmatter
 frontmatter: |
-   publish-date: {{today}}
+   creation-date: {{today}}
    pageDecoration:
      cssClasses:
        - no-frontmatter
    focus:
-   category:
-   parent-topic:
-   topic:
-   description:
-   definition:
-   discipline:
-   operation:
+   intent:
    resource:
-   architecture:
-   extension:
-   language:
+   property:
+   category:
+   topic:
+   title:
+   description:
+   technique:
+   os:
+   port:
+   service:
+   arch:
+   ext:
+   lang:
    manufacturer:
    model:
    platform:
-   os:
-   platform:
-   port:
-   service:
-   technique:
-   
 ---
 |^|
