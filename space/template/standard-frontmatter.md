@@ -21,7 +21,7 @@ frontmatter: |
    manufacturer:
    model:
    platform:
-   operating-system:
+   os:
    platform:
    port:
    service:

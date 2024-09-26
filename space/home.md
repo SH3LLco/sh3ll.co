@@ -16,8 +16,3 @@ Cybersecurity Knowledge Base - by [[sh3ll/about-me|SH3LL]]
 ##### [[contribute|Contribute]]
 ### [[sh3ll/about-me|SH3LL]]
 
-
-```query
-page where name = "codex"
-```
-
