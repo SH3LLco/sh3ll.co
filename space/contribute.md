@@ -1,1 +1,1 @@
-This site is still a work in progress. Check here for updates on how you can contribute or join the [[community]].
+This site is still a work in progress. Check here for updates on how you can contribute or join the [[Community]].

@@ -90,9 +90,9 @@ html {
   --editor-command-button-border-color: #666;
   --editor-line-meta-color: var(--meta-subtle-color);
   --editor-meta-color: var(--meta-color);
-  --editor-table-head-background-color: rgba(41,192,237,0.5);
+  --editor-table-head-background-color: rgba(0, 0, 0, 0.45);
   --editor-table-head-color: #eee;
-  --editor-table-even-background-color: rgba(41,192,237,0.5);
+  --editor-table-even-background-color: rgba(0, 0, 0, 0.2);
   --editor-blockquote-background-color: var(--subtle-background-color);
   --editor-blockquote-color: var(--subtle-color);
   --editor-blockquote-border-color: #4a4a4a;
@@ -113,7 +113,7 @@ html {
   --editor-frontmatter-background-color: rgba(41, 40, 35, 0.5);
   --editor-frontmatter-color: var(--subtle-color);
   --editor-frontmatter-marker-color: #fff;
-  --editor-widget-background-color: rgba(41, 192, 237, 0.2);
+  --editor-widget-background-color: rgba(0, 0, 0, 0.2);
   --editor-task-marker-color: var(--subtle-color);
 }
 

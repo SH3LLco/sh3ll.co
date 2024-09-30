@@ -1,25 +1,30 @@
 ---
 pageDecoration:
-  disableTOC: true
   cssClasses:
     - no-frontmatter
 ---
-# [[user-manual|User Manual]]
+# [[User Manual|User Manual]]
 
----
 # By Focus
-[[cybersecurity|Cybersecurity]] [[code-and-dev|Coding & Development]] [[infrastructure-and-admin|Infrastructure & Administration]] [[research|Research]] [[networking-and-services|Networking & Services]]
-
+```query
+focus render all [[template/focus-render]]
+```
 ---
 # By Intent
-[[attack|Attack]] [[defend|Defend]] [[build|Build]] [[learn|Learn]] 
-
+```query
+intent render all [[template/intent-render]]
+```
 ---
 # By Resource
-[[cheatsheets|Cheatsheets]] [[documentation|Documentation]] [[tools|Tools]] [[pocs|POCs]] [[courses|Courses]] [[kb-list|Knowledge Base List]] [[codebase|Codebase]] [[frameworks|Frameworks]]
+```query
+resource render all [[template/resource-render]]
+```
+
+
+[[Resource/Cheatsheet]] [[Resource/Documentation]] [[Resource/Tool]] [[Resource/POC]] [[Resource/Course]] [[Knowledge Base List]] [[Codebase]] [[Framework]]
 
 ---
 # By Property
-[[arch|Architecture]] [[ext|Extension]] [[lang|Language]] [[os|Operating System]] [[platform|Platform]] [[port|Port]] [[service|Service]] [[technique|Technique]] [[hardware|Hardware]]
+[[Architecture]] [[Extension]] [[Language]] [[Operating System]] [[Platform]] [[Port]] [[Service]] [[Technique]] [[Hardware]]
 
 ---
