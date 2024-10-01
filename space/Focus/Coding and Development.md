@@ -10,3 +10,5 @@ pageDecoration:
 ```query
 category where Focus = "Coding and Development" render all [[template/category-render]]
 ```
+
+

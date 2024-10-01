@@ -20,7 +20,6 @@ Resource:
   - "Tool"
   - "POC"
   - "Course"
-  - "Knowledge Base List"
   - "Codebase"
   - "Framework"
 Architecture:
