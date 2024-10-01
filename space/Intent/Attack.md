@@ -8,7 +8,7 @@ pageDecoration:
 
 # By Category
 ```query
-page where Intent = "Attack" render all [[template/category-render]]
+page where Intent = "Attack" render all [[template/attack-render]]
 ```
 
 

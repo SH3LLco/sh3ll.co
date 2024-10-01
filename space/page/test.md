@@ -4,7 +4,7 @@ pageDecoration:
   cssClasses:
     - no-frontmatter
 Focus: 
-  - "Cybersecurity":
+  - "Cybersecurity"
   - "Coding and Development"
   - "Infrastructure and Administration"
   - "Research"
