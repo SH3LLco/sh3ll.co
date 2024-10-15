@@ -2,45 +2,50 @@
 tags: template
 hooks.snippet.slashCommand: standard-frontmatter
 frontmatter: |
-   date: {{today}}
    pageDecoration:
      cssClasses:
        - no-frontmatter
-   focus:
-     -
-   intent:
-     -
-   resource:
-     -
-   category:
-     -
-   topic:
-     -
-   title:
-     -
-   description:
-     -
-   os:
-     -
-   platform:
-     -
-   port:
-     -
-   service:
-     -
-   technique:
-     -
-   architecture:
-     -
-   extension:
-     -
-   language:
-     -
-   hardware:
-     -
-   manufacturer:
-     -
-   model:
-     -
+   
+   Metadata:
+     Title: 
+     Description: 
+     creationDate: {{today}}
+   
+   Taxonomy:
+     Focus: 
+       -
+     Intent:
+       -
+     Category: 
+       -
+     Topic:
+       -
+     Technique:
+       -
+
+   Resource:
+     Type:
+       -
+
+   Property:
+     Architecture:
+       -
+     Extension:
+       -
+     Language:
+       -
+     "Operating System":
+       -
+     Platform:
+       -
+     Port:
+       -
+     Service:
+       -
+     Hardware:
+       Manufacturer:
+         - 
+       Model:
+         - 
 ---
 

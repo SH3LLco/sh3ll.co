@@ -1,0 +1,382 @@
+DIRECTORIES:
+    focus:
+        codingAndDevelopment:
+            - "Focus/{FOCUS}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{INTENT}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{RESOURCE}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{PROPERTY}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+        cybersecurity:
+            - "Focus/{FOCUS}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{INTENT}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{RESOURCE}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{PROPERTY}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+        infrastructureAndAdministration:
+            - "Focus/{FOCUS}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{INTENT}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{RESOURCE}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{PROPERTY}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+        networkingAndServices:
+            - "Focus/{FOCUS}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{INTENT}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{RESOURCE}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{PROPERTY}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+        research:
+            - "Focus/{FOCUS}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{INTENT}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{RESOURCE}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{PROPERTY}/{TOPIC}"
+            - "Focus/{FOCUS}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+            - "Focus/{FOCUS}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+    intent:
+        attack:
+            - "Intent/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{CATEGORY}/{RESOURCE}/{TOPIC}"
+            - "Intent/{INTENT}/{CATEGORY}/{PROPERTY}/{TOPIC}"
+            - "Intent/{INTENT}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{FOCUS}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+        defend:
+            - "Intent/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{CATEGORY}/{RESOURCE}/{TOPIC}"
+            - "Intent/{INTENT}/{CATEGORY}/{PROPERTY}/{TOPIC}"
+            - "Intent/{INTENT}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{FOCUS}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+        build:
+            - "Intent/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{CATEGORY}/{RESOURCE}/{TOPIC}"
+            - "Intent/{INTENT}/{CATEGORY}/{PROPERTY}/{TOPIC}"
+            - "Intent/{INTENT}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{FOCUS}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+        learn:
+            - "Intent/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{CATEGORY}/{RESOURCE}/{TOPIC}"
+            - "Intent/{INTENT}/{CATEGORY}/{PROPERTY}/{TOPIC}"
+            - "Intent/{INTENT}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{FOCUS}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+            - "Intent/{INTENT}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+    resource:
+        cheatsheet:
+            - "Resource/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{FOCUS}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+        documentation:
+            - "Resource/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{FOCUS}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+        poc:
+            - "Resource/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{FOCUS}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+        course:
+            - "Resource/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{FOCUS}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+        codebase:
+            - "Resource/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{FOCUS}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+        framework:
+            - "Resource/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{FOCUS}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+            - "Resource/{RESOURCE}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+    property:
+        architecture:
+            - "Property/{PROPERTY}/{ARCHITECTURE}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{FOCUS}/{CATEGORY}/{TOPIC}"
+        extension:
+            - "Property/{PROPERTY}/{EXTENSION}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{FOCUS}/{CATEGORY}/{TOPIC}"
+        language:
+            - "Property/{PROPERTY}/{LANGUAGE}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{FOCUS}/{CATEGORY}/{TOPIC}"
+        operatingSystem:
+            - "Property/{PROPERTY}/{OPERATING SYSTEM}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{FOCUS}/{CATEGORY}/{TOPIC}"
+        platform:
+            - "Property/{PROPERTY}/{PLATFORM}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{FOCUS}/{CATEGORY}/{TOPIC}"
+        port:
+            - "Property/{PROPERTY}/{PORT}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{FOCUS}/{CATEGORY}/{TOPIC}"
+        service:
+            - "Property/{PROPERTY}/{SERVICE}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{FOCUS}/{CATEGORY}/{TOPIC}"
+        technique:
+            - "Property/{PROPERTY}/{TECHNIQUE}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{FOCUS}/{CATEGORY}/{TOPIC}"
+        tool:
+            - "Property/{PROPERTY}/{TOOL}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{FOCUS}/{CATEGORY}/{TOPIC}"
+        application:
+            - "Property/{PROPERTY}/{APPLICATION}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{FOCUS}/{CATEGORY}/{TOPIC}"
+        hardware:
+            - "Property/{PROPERTY}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{INTENT}/{CATEGORY}/{TOPIC}"
+            - "Property/{PROPERTY}/{FOCUS}/{CATEGORY}/{TOPIC}"
+
+TEMPLATES:
+
+"Focus/{FOCUS}/{CATEGORY}"
+"""
+---
+tags: category
+pageDecoration:
+  cssDecoration:
+    - no-frontmatter
+Category: {CATEGORY}
+Focus: {FOCUS}
+---
+
+
+"""
+
+"Focus/{FOCUS}/{CATEGORY}/{TOPIC}"
+
+"Focus/{FOCUS}/{CATEGORY}/{INTENT}"
+
+"Focus/{FOCUS}/{CATEGORY}/{INTENT}/{TOPIC}"
+
+"Focus/{FOCUS}/{CATEGORY}/{RESOURCE}"
+
+"Focus/{FOCUS}/{CATEGORY}/{RESOURCE}/{TOPIC}"
+
+"Focus/{FOCUS}/{CATEGORY}/{PROPERTY}"
+
+"Focus/{FOCUS}/{CATEGORY}/{PROPERTY}/{TOPIC}"
+
+"Focus/{FOCUS}/{CATEGORY}/{HARDWARE}"
+
+"Focus/{FOCUS}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}"
+
+"Focus/{FOCUS}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}/{MODEL}"
+
+"Focus/{FOCUS}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}"
+
+"Focus/{FOCUS}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+
+"Focus/{FOCUS}/{INTENT}"
+
+"Focus/{FOCUS}/{INTENT}/{CATEGORY}"
+
+"Focus/{FOCUS}/{INTENT}/{CATEGORY}/{TOPIC}"
+
+"Focus/{FOCUS}/{RESOURCE}"
+
+"Focus/{FOCUS}/{RESOURCE}/{CATEGORY}"
+
+"Focus/{FOCUS}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+
+"Focus/{FOCUS}/{PROPERTY}"
+
+"Focus/{FOCUS}/{PROPERTY}/{CATEGORY}"
+
+"Focus/{FOCUS}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+
+"Focus/{FOCUS}/{HARDWARE}"
+
+"Focus/{FOCUS}/{HARDWARE}/{MANUFACTURER}"
+
+"Focus/{FOCUS}/{HARDWARE}/{MANUFACTURER}/{MODEL}"
+
+"Focus/{FOCUS}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}"
+
+"Focus/{FOCUS}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+
+"Intent/{INTENT}/{CATEGORY}"
+
+"Intent/{INTENT}/{CATEGORY}/{TOPIC}"
+
+"Intent/{INTENT}/{CATEGORY}/{RESOURCE}"
+
+"Intent/{INTENT}/{CATEGORY}/{RESOURCE}/{TOPIC}"
+
+"Intent/{INTENT}/{CATEGORY}/{PROPERTY}"
+
+"Intent/{INTENT}/{CATEGORY}/{PROPERTY}/{TOPIC}"
+
+"Intent/{INTENT}/{CATEGORY}/{HARDWARE}"
+
+"Intent/{INTENT}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}"
+
+"Intent/{INTENT}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}/{MODEL}"
+
+"Intent/{INTENT}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}"
+
+"Intent/{INTENT}/{CATEGORY}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+
+"Intent/{INTENT}/{RESOURCE}"
+
+"Intent/{INTENT}/{RESOURCE}/{CATEGORY}"
+
+"Intent/{INTENT}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+
+"Intent/{INTENT}/{FOCUS}"
+
+"Intent/{INTENT}/{FOCUS}/{CATEGORY}"
+
+"Intent/{INTENT}/{FOCUS}/{CATEGORY}/{TOPIC}"
+
+"Intent/{INTENT}/{PROPERTY}"
+
+"Intent/{INTENT}/{PROPERTY}/{CATEGORY}"
+
+"Intent/{INTENT}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+
+"Intent/{INTENT}/{HARDWARE}"
+
+"Intent/{INTENT}/{HARDWARE}/{MANUFACTURER}"
+
+"Intent/{INTENT}/{HARDWARE}/{MANUFACTURER}/{MODEL}"
+
+"Intent/{INTENT}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}"
+
+"Intent/{INTENT}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+
+"Resource/{RESOURCE}/{CATEGORY}"
+
+"Resource/{RESOURCE}/{CATEGORY}/{TOPIC}"
+
+"Resource/{RESOURCE}/{FOCUS}"
+
+"Resource/{RESOURCE}/{FOCUS}/{CATEGORY}"
+
+"Resource/{RESOURCE}/{FOCUS}/{CATEGORY}/{TOPIC}"
+
+"Resource/{RESOURCE}/{INTENT}"
+
+"Resource/{RESOURCE}/{INTENT}/{CATEGORY}"
+
+"Resource/{RESOURCE}/{INTENT}/{CATEGORY}/{TOPIC}"
+
+"Resource/{RESOURCE}/{PROPERTY}"
+
+"Resource/{RESOURCE}/{PROPERTY}/{CATEGORY}"
+
+"Resource/{RESOURCE}/{PROPERTY}/{CATEGORY}/{TOPIC}"
+
+"Resource/{RESOURCE}/{HARDWARE}"
+
+"Resource/{RESOURCE}/{HARDWARE}/{MANUFACTURER}"
+
+"Resource/{RESOURCE}/{HARDWARE}/{MANUFACTURER}/{MODEL}"
+
+"Resource/{RESOURCE}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}"
+
+"Resource/{RESOURCE}/{HARDWARE}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+
+"Property/{PROPERTY}/{ARCHITECTURE}"
+
+"Property/{PROPERTY}/{ARCHITECTURE}/{CATEGORY}"
+
+"Property/{PROPERTY}/{ARCHITECTURE}/{CATEGORY}/{TOPIC}"
+
+"Property/{PROPERTY}/{RESOURCE}"
+
+"Property/{PROPERTY}/{RESOURCE}/{CATEGORY}"
+
+"Property/{PROPERTY}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+
+"Property/{PROPERTY}/{INTENT}"
+
+"Property/{PROPERTY}/{INTENT}/{CATEGORY}"
+
+"Property/{PROPERTY}/{INTENT}/{CATEGORY}/{TOPIC}"
+
+"Property/{PROPERTY}/{FOCUS}"
+
+"Property/{PROPERTY}/{FOCUS}/{CATEGORY}"
+
+"Property/{PROPERTY}/{FOCUS}/{CATEGORY}/{TOPIC}"
+
+"Property/{PROPERTY}/{MANUFACTURER}"
+
+"Property/{PROPERTY}/{MANUFACTURER}/{MODEL}"
+
+"Property/{PROPERTY}/{MANUFACTURER}/{MODEL}/{CATEGORY}"
+
+"Property/{PROPERTY}/{MANUFACTURER}/{MODEL}/{CATEGORY}/{TOPIC}"
+
+"Property/{PROPERTY}/{RESOURCE}"
+
+"Property/{PROPERTY}/{RESOURCE}/{CATEGORY}"
+
+"Property/{PROPERTY}/{RESOURCE}/{CATEGORY}/{TOPIC}"
+
+"Property/{PROPERTY}/{INTENT}"
+
+"Property/{PROPERTY}/{INTENT}/{CATEGORY}"
+
+"Property/{PROPERTY}/{INTENT}/{CATEGORY}/{TOPIC}"
+
+"Property/{PROPERTY}/{FOCUS}"
+
+"Property/{PROPERTY}/{FOCUS}/{CATEGORY}"
+
+"Property/{PROPERTY}/{FOCUS}/{CATEGORY}/{TOPIC}"

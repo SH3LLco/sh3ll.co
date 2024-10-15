@@ -25,6 +25,6 @@ resource render all [[template/resource-render]]
 
 ---
 # By Property
-[[Architecture]] [[Extension]] [[Language]] [[Operating System]] [[Platform]] [[Port]] [[Service]] [[Technique]] [[Hardware]]
+[[Property/Architecture]] [[Property/Extension]] [[Property/Language]] [[Property/Operating System]] [[Platform]] [[Port]] [[Service]] [[Technique]] [[Hardware]]
 
 ---
