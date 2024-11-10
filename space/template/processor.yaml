@@ -186,7 +186,48 @@ TEMPLATES:
 "Focus/{FOCUS}/{CATEGORY}"
 """
 ---
-tags: category
+tags: Category
+pageDecoration:
+  cssDecoration:
+    - no-frontmatter
+Category: {CATEGORY}
+Focus: {FOCUS}
+---
+
+# [[Getting Started/{CATEGORY}|Getting Started]]
+
+---
+
+# Topics
+```query
+Topic where Category = "{CATEGORY}" and Focus = "{FOCUS}" render all [[template/topic-render]]
+```
+
+# Intent
+```query
+Intent where Category = "{CATEGORY}" and Focus = "{FOCUS}" render all [[template/intent-render]]
+```
+
+# Resources
+```query
+Resource where Category = "{CATEGORY}" and Focus = "{FOCUS}" render all [[template/resource-render]]
+```
+
+# Property
+```query
+Property where Category = "{CATEGORY}" and Focus = "{FOCUS}" render all [[template/property-render]]
+```
+
+# Hardware
+```query
+Hardware where Category = "{CATEGORY}" and Focus = "{FOCUS}" render all [[template/hardware-render]]
+```
+"""
+
+"Focus/{FOCUS}/{CATEGORY}/{TOPIC}"
+"""
+---
+tags: Category
 pageDecoration:
   cssDecoration:
     - no-frontmatter
@@ -196,8 +237,6 @@ Focus: {FOCUS}
 
 
 """
-
-"Focus/{FOCUS}/{CATEGORY}/{TOPIC}"
 
 "Focus/{FOCUS}/{CATEGORY}/{INTENT}"
 
